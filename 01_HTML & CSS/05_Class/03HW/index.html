@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Reset Styles */
+        * {
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100vw;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 2px solid black;
+            width: 70%;
+            height: 90%;
+            background-color: bisque;
+        }
+        .box{
+            width: full;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 80px;
+            padding: 20px;
+            
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .inner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .right{
+            height: 100%;
+            width: 40%;
+           
+           display: flex;
+           justify-content: center;
+           align-items:center ;
+           flex-direction: column;
+
+        }
+        .inside{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            margin-bottom: 30px;
+        }
+        .links{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 10px;
+           
+            
+        }
+        .links a{
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: rgb(170, 207, 221);
+        }
+        .lower{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .main{
+            height: 30%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            
+        }
+       .main img{
+            height: 100px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="box">
+        <div class="left">
+            <img
+                  src="https://nep.pitb.gov.pk/system/files/mehran%20uni_0.png"
+                  alt="MUET Logo"
+                  height="80"
+                  width="80"
+                />
+                <div class="inner">
+            <h1>MEHRAN UNIVERSITY</h1>
+            <p>OF ENGINEERING AND TECHNOLOGY JAMSHORO, PAKISTAN</p>
+                </div>
+        </div>
+        <div class="right">
+            <div class="inside">
+                <input type="text">
+                    
+                </input>
+                <button>Search</button>
+            </div>
+            <p>Quick Links</p> 
+        </div>
+     </div>
+        <div class="links">
+            <a href="">UNIVERSITY</a>
+            <a href="">ACADAMICS</a>
+            <a href="">ADMISSIONS</a>
+            <a href="">DEPT</a>
+            <a href="">INST</a>
+            <a href="">DIRT</a>
+            <a href="">RESAERCH</a>
+            <a href="">SUST</a>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="home">
+            <img src="../../03_Class/image.png" alt="">
+            <div class="lower">
+                <p> <strong>Notification</strong>Supplementry Examination for F16 F17 and 18 batches </p>
+                <a href="">Viewall</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="../../03_Class/image.png" alt="">
+            <img src="../../03_Class/image.png" alt="">
+            <img src="../../03_Class/image.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
