@@ -1,0 +1,102 @@
+h1{
+    color:blue;
+    font-size: 72px;
+}
+
+
+div a{
+   
+    background-color: brown;
+    color: #fff;
+    font-weight: bold;
+}
+
+div{
+    /* border: solid 3px brown; */
+    /* margin-bottom: 10px;
+    padding: 10px; */
+}
+
+.main > p{
+    background-color: blue;
+    color: #fff;
+}
+
+.main-topics > li {
+    border:4px solid brown;
+    margin-bottom: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+.form div{
+    margin-bottom: 5px;
+}
+
+.form div span{
+    /* background-color: red; */
+    /* color: #fff; */
+   display: inline-block;
+   width: 120px;
+   text-align: right;
+   margin-right: 5px;
+}
+
+.form{
+    text-align: center;
+}
+
+.a{
+    border: 2px solid brown;
+    padding: 10px;
+
+}
+
+.a .b{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: blue;
+}
+.a .b:hover{
+    background-color: red;
+}
+/* .a .b1{
+    background-color: blue;
+}
+.a .b2{
+    background-color: red;
+}
+.a .b3{
+    background-color: green;
+}
+.a .b4{
+    background-color: brown;
+} */
+
+table tr td{
+    width: 200px;
+    height: 200px;
+}
+table tr td{
+    background-color: red;
+}
+
+table tr td:nth-child(1){
+    background-color: blue;
+}
+table tr td:nth-child(2){
+    background-color: red;
+}
+
+table tr td:nth-child(3){
+    background-color: green;
+}
+
+table tr td:nth-child(4){
+    background-color: brown;
+}
+
+
+
