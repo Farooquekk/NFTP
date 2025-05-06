@@ -1,0 +1,178 @@
+/*Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+  height: full;
+  width: 100vw;
+  background-color: black;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.container {
+ margin: 0 auto;
+  padding: 10px;
+  height: 100%;
+  width: 70%;
+  
+  
+}
+
+
+nav ul{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(20, 209, 223);
+}
+
+#home{
+   
+    color: rgb(20, 209, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+#home h1{
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+#about{
+    margin: 30px;
+    color: rgb(20, 209, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+#about .about_div p{
+    font-size: 30px;
+    margin: 10px;
+}
+#about .about_div h2{
+    font-size: 50px;
+    margin: 10px;
+}
+#about  img{
+    border-radius: 25px;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+#projects{
+    
+    color: rgb(20, 209, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;   
+}
+
+#projects h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#projects .projects_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    
+    
+}
+
+#projects .projects_div .project{
+   border: 2px solid white;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#skills{
+    margin-top: 20px;
+    color: rgb(20, 209, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;   
+    font-size: 20px;
+}
+
+#skills h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+#skills .skills_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    
+    
+}
+#skills .skills_div .skill{
+    border: 2px solid white;
+    border-radius: 25px;
+    
+   margin-left: 10px;
+    padding: 10px;
+}
+
+#contact{
+    margin-top: 20px;
+    color: rgb(20, 209, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;   
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+#contact h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contact label,input,textarea{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#contact input[type="submit"]{
+    cursor: pointer;
+}
